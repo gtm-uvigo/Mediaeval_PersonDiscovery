@@ -1,1 +1,3 @@
-# Mediaeval_PersonDiscovery
+# Mediaeval Person Discovery Task
+
+Work in progress
