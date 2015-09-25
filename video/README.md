@@ -35,14 +35,13 @@ export LD_LIBRARY_PATH=/home/.../path_to_executable/lib/:$LD_LIBRARY_PATH
 |-d [ --dlib ] ||        use dlib for landmarks (disabled by default)||
 |-m [ --mediaeval ] ||        mediaeval output format (disabled by default)||
 
- - <shot_file> format (*.shot)
+- <shot_file> format (*.shot)
 
-    <videoID> <shotID> <start_time> <end_time> <start_frame> <end_frame>
+<videoID> <shotID> <start_time> <end_time> <start_frame> <end_frame>
 
- - <OCR_file> format (*.MESeg)
+- <OCR_file> format (*.MESeg)
 
-    <videoID> <start_time> <end_time> <start_frame> <end_frame> <trackID>
-<person_name> <confidence>
+<videoID> <start_time> <end_time> <start_frame> <end_frame> <trackID> <person_name> <confidence>
 
 
 ## Output
@@ -67,7 +66,7 @@ Output example:
 "shots": [ 4 ],  
 "evidenceList":  []  
 }
-```
+
 #### Mediaeval format
 
 "videoID"_audio.MESeg  
