@@ -1,16 +1,27 @@
 # MEDIAEVAL VIDEO PROCESS
+
 ## Requirements
-- Ubuntu 14.x LTS OS
+
+* Ubuntu 14.x LTS OS
+
 ## Libraries used
-- Opencv3.0 with contrib module - ( https://github.com/Itseez/opencv/ and https://github.com/itseez/opencv_contrib )
-- Libconfig ( https://github.com/hyperrealm/libconfig )
-- Boost ( http://www.boost.org/ )
-- Pthreads
-- TBB ( https://www.threadingbuildingblocks.org/ )
+
+* Opencv3.0 with contrib module - ( https://github.com/Itseez/opencv/ and https://github.com/itseez/opencv_contrib )
+* Libconfig ( https://github.com/hyperrealm/libconfig )
+* Boost ( http://www.boost.org/ )
+* Pthreads
+* TBB ( https://www.threadingbuildingblocks.org/ )
+
 ## Usage
+
 No need to install the libraries, all of them are included in lib folder.
+
+```
 export LD_LIBRARY_PATH=/home/.../path_to_executable/lib/:$LD_LIBRARY_PATH
+ 
 ./mediaeval_video [arguments]  
+
+```
   
 |Options:| | | |
 |:----------|:-------------|:------|:------|
